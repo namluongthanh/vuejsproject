@@ -1,20 +1,19 @@
 <script setup lang="ts">
-import HelloWorld from './components/HelloWorld.vue'
-import TheWelcome from './components/TheWelcome.vue'
+import CreateButton from './components/buttons/CreateButton.vue';
+import FilterButton from './components/buttons/FilterButton.vue';
+import SearchButton from './components/buttons/SearchButton.vue';
+import LanguageButton from './components/buttons/LanguageButton.vue';
 </script>
 
 <template>
-  <header>
-    <img alt="Vue logo" class="logo" src="./assets/logo.svg" width="125" height="125" />
-
-    <div class="wrapper">
-      <HelloWorld msg="You did it!" />
+  <div class="bg-white w-full">
+    <div class="flex column flex-col items-center justify-center gap-4">
+      <SearchButton />
+      <CreateButton />
+      <FilterButton />
+      <LanguageButton />
     </div>
-  </header>
-
-  <main>
-    <TheWelcome />
-  </main>
+  </div>
 </template>
 
 <style scoped>

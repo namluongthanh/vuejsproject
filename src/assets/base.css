@@ -10,6 +10,26 @@
 
   --vt-c-indigo: #2c3e50;
 
+  --vt-c-rausch:  #FF5A5F;
+  --vt-c-rausch-soft:  #fc7479;
+  --vt-c-rausch-mute:  #FF5A5F;
+
+  --vt-c-babu:  #00A699;
+  --vt-c-babu-soft:  #00c0b0;
+  --vt-c-babu-mute:  #00A699;
+
+  --vt-c-arches:  #FC642D;
+  --vt-c-arches-soft:  #f87d50;
+  --vt-c-arches-mute:  #FC642D;
+
+  --vt-c-hof: #484848;
+  --vt-c-hof-soft: #646464;
+  --vt-c-hof-mute: #484848;
+
+  --vt-c-foggy: #767676;
+  --vt-c-foggy-soft: #919191;
+  --vt-c-foggy-mute: #767676;
+
   --vt-c-divider-light-1: rgba(60, 60, 60, 0.29);
   --vt-c-divider-light-2: rgba(60, 60, 60, 0.12);
   --vt-c-divider-dark-1: rgba(84, 84, 84, 0.65);
@@ -19,6 +39,8 @@
   --vt-c-text-light-2: rgba(60, 60, 60, 0.66);
   --vt-c-text-dark-1: var(--vt-c-white);
   --vt-c-text-dark-2: rgba(235, 235, 235, 0.64);
+
+  --vt-c-font: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif
 }
 
 /* semantic color variables for this project */
